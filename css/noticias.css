@@ -1,0 +1,38 @@
+aside{
+    margin-top: 2vh;
+    margin-right: 0.5vh;
+    float: right;
+    width: 28%;
+    background-color: rgb(26, 55, 71);
+    border-radius: 10px;
+}
+.noticias{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    height: 96%;
+    width: 98%;
+}
+
+.title{
+    text-align: center;
+    font-size: 14px;
+    color: black;
+}
+.date{
+    font-size: 11px;
+}
+
+.message{
+    color: rgb(217, 220, 230);
+}
+
+@media screen and (max-width:780px) {
+    aside{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    
+}

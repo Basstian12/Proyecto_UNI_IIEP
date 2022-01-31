@@ -1,0 +1,330 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    font-family: century gothic;
+}
+body{
+    width: 100%;
+}
+
+header{
+    background: linear-gradient(180deg, #945997, #0ba590);
+    width: 100%;
+    height: 40vh;
+    color: white;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 3vh;
+    margin-left: 0;
+    color: black;
+    width: 40%;
+    padding: 1vh;
+    float: left;
+    
+}
+.h3{
+    font-style: oblique;
+}
+.logo img{
+    border-radius: 15px;
+    width: 25%;
+    padding: 0.5vh;
+}
+
+
+.referencias{
+    float: right;
+    margin: 1vh 0vh;
+    /* background-color: black; */
+    width: 30%;
+}
+.bcontacto{
+    margin-top: 2vh;
+    margin-left: 10%;
+    width: 90%;
+    padding: 2vh 0vh;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color: rgb(99, 2, 83);
+    color: rgb(236, 233, 17);
+}
+.bcontacto .bcontacto-tel{
+    font-size: 25px;
+    margin-top: 0.5vh;
+    color: white;
+    width: 20%;
+    margin-left: 2vh;
+    float: left;
+}
+.bcontacto .bcontacto-num{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.bcontacto .bcontacto-num a{
+    width: 100%;
+    color: white;
+}
+
+.breferencias .breferencias-title{
+    margin-top: 3vh;
+    margin-left: 1vh;
+    width: 30%;
+    background-color: rgb(241, 197, 0);
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.breferencias .breferencias-link{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 2.5vh;
+}
+.breferencias .breferencias-link i{
+    padding: 1vh;
+}
+/* iconos de red social */
+.iconos{
+    font-size: 18px;
+    color: black;
+}
+.iconos:hover{
+    font-size: 20px;
+    color: blue;
+}
+
+
+
+/* barra de navegacion */
+.nav{
+    text-align: center;
+    color: bisque;
+    height: 5vh;
+    
+}
+.nav div {
+    width: 100%;
+}
+.nava{
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.nava a{
+    color: rgb(238, 1, 218);
+    padding: 0.5vh 2vh;
+   /*  border: 1px solid white; */
+}
+.nava a:hover{
+    
+    border-left: 2px solid rgb(0, 221, 250);
+    border-right: 2px solid yellow;
+    color: aqua;
+}
+
+
+
+/* cuerpo del sitio */
+body{
+    background-color: rgb(85, 148, 148);
+}
+body.nav_fixed .nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+body.nav_fixed .nav .wrap{
+    left: 0;
+}
+main{
+    margin-top: 2vh;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    height: auto;
+    margin-left: 1vh;
+    width: 70%;
+}
+.fundacion{
+    width: 100%;
+    font-family: georgia;
+    font-size: 16px;
+}
+.fundacion p{
+    font-size: 17px;
+    padding: 2vh;
+}
+.divmv{
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+    height: 50vh;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 15px 25px rgba(134, 43, 141, 0.863);
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+.divmv div{
+    
+    margin: 1vh;
+}
+
+.mision{
+    float: left;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 45%;
+    font-size: 18px;
+    /* height: 30vh; */
+    
+}
+.mision p{
+    font-family: georgia;
+    text-align: justify;
+    padding: 2vh;
+}
+.mision h1{
+    color: rgb(248, 171, 3);
+    text-align: center;
+}
+.vision{
+    float: right;
+    color: rgb(195, 248, 2);
+    border-radius: 15px;
+    width: 45%;
+    height: 30vh;
+    font-size: 18px;
+}
+.vision h1{
+    text-align: center;
+    color: black;
+    
+    
+}
+.vision p{
+    font-family: georgia;
+    text-align: justify;
+    padding: 2vh;
+}
+section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+section p{
+    padding: 1vh 0vh;
+}
+
+/* pie de pagina */
+footer{
+    background-color: rgb(62, 83, 199);
+    width: 100%;
+    text-align: right;
+}
+.footer_main{
+    width: 95%;
+    margin-top: 5vh;
+    padding: 3vh 0vh;
+}
+
+
+/* PARA DISPOSITIVOS MOVILES */
+@media screen and (max-width:780px) {
+    *{
+        margin: 0;
+    }
+    body{
+        margin-right: 0;
+        padding: 0;
+    }
+    header{
+        padding:0vh;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(180deg, #945997, #0ba590);
+        width: 100%;
+        height: 20vh;
+    }
+    .logo{
+        margin-top: 0;
+        height: 50%;
+        width: 40%;
+    }
+    
+    .logo h3{
+        display: none;
+    }
+    .logo img{
+        width: 50%;
+    }
+    .referencias{
+        margin-left: 10%;
+        margin-right: 0;
+        width: 50%;
+       /*  background-color: rgb(197, 66, 66); */
+        color: white;
+        margin-top: 0vh;
+        margin-bottom: 0;
+    }
+    .bcontacto{
+        display: flex;
+        align-items: center;
+        height: 2vh;
+        width: 80%;
+        margin-left: 20%;
+        font-size: 12px;
+    }
+    .bcontacto .bcontacto-tel{
+        margin-top: 0;
+        font-size: 12px;
+    }
+    .bcontacto .bcontacto-num{
+        margin-left: 2vh;
+        width: 80%;
+    }
+    .breferencias-title h1{
+        font-size: 12px;
+    }
+    .iconos{
+        padding: 0;
+        font-size: 12px;
+    }
+    .iconos:hover{
+        font-size: 14px;
+    }
+    /* barra de navegacion */
+    nav{
+        /* display: none; */
+    
+    }
+
+
+
+    /* CONTENIDO DEL DISPOSITIVO */
+    main{
+    background-color: #945997;
+    width: 100%;
+    margin-left: 0;
+    }
+
+    /* contenido del main */
+    .divmv{
+        margin-left: auto;
+        margin-right: auto;
+        width: 98%;
+        height: 60vh;
+    }
+    .divmv .mision{
+    width: 100%;
+    float: none;
+    }
+    .divmv .vision{
+        width: 100%;
+        float: none;
+    }
+}
